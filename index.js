@@ -26,6 +26,8 @@ function clickHandler(params) {
 }
 
 function closeBtnHandler(params) {
+  // TODO Change classes instead of changing properties directly.
+
   console.log("Close button function");
   this.parentNode.style.backgroundColor = "green";
   this.parentNode.style.color = 'cyan';
